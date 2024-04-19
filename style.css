@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    background-color: black;
+    color: azure;
+}
+
+.left {
+
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li {
+    margin-right: 100px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.area1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.leftdiv{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+.rightdiv{
+    
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+img{
+    border-radius: 50%;
+    
+}
+
+.line{
+    position: relative;
+    right: 145px;
+    margin-bottom: 10px;
+    font-size: large;
+    color: rgb(91, 87, 87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    position: relative;
+    right: 140px;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    position: relative;
+    right: 140px;
+    font-size: x-large;
+    margin-bottom: 25px;
+    color: rgb(69, 69, 68);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.b1{
+   background-color: black;
+   color: azure;
+   border-radius: 15px;
+   margin-right: 5px;
+   cursor: pointer;
+   transition: 0.4s;
+   position: relative;
+    right: 157px;
+    height: 35px;
+    padding: 6px;
+    margin-bottom: 10px;
+
+}
+
+.b1:hover{
+    background-color: azure;
+    color: black;
+
+}
+
+.b2{
+    background-color: azure;
+    border-radius: 15px;
+    transition: 0.4s;
+    padding: 10px;
+    position: relative;
+    right: 157px;
+    height: 35px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.b2:hover{
+    background-color: black;
+    color: azure;
+}
+
+.comppic{
+    position: relative;
+    right: 140px;
+    display: flex;
+    
+}
+
+.linkedin{
+    margin-left: 7px;
+    
+}
+
+.linkedin:hover{
+    height:30px ;
+    width: 30px;
+}
+
+.git:hover{
+    height: 30px;
+    width: 30px;
+}
+
+.area2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get{
+    font-size: large;
+    font-family: monospace;
+    color: rgb(137, 128, 128);
+    margin-bottom: 7px;
+}
+
+.about{
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.hero2{
+    height: 740px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.rhero2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.walter{
+    margin-right: 50px;
+}
+
+.lhero2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.Exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin-right: 50px;
+
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+
+.edutext{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.exptext{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.years{
+    font-size: medium;
+    color: rgb(109, 106, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.degree{font-size: medium;
+    color: rgb(109, 106, 106);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(59, 58, 58);
+    
+}
+
+.arrow1{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: flex-end;
+}
+
+.area3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.exploremy{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(104, 101, 101);
+}
+
+.experience1{
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 60px;
+}
+
+.hero3{
+    width: 100vw;
+    display: flex;
+    padding: 40px;
+    margin-bottom: 70px;
+}
+
+.front{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+
+.frontenddev{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(127, 122, 122);
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.frontlist{
+    height: 100%;
+    width: 100%;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.back{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+.backend{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(127, 122, 122);
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.backlist{
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.listitem{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+
+li{
+    margin-bottom: 50px;
+}
+
+ol{
+    list-style-image:url(./assets/bx-check-circle.svg)
+}
+
+li.hover{
+    text-decoration: underline;
+}
+
+.area4{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.browse{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero4{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.pic123{
+    border: 3px solid rgb(190, 180, 180);
+    border-radius:25px;
+    box-shadow: 0px 0px 15px 2px rgba(156, 148, 148, 1);
+    height: 525px;
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.images{
+    border-radius: 25px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 20px;
+}
+
+.projects{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(58, 58, 58);
+}
+
+.projectbutton{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+.button1{
+    height: 45px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.area5{
+    height: 100vh;
+    width: 100vw;
+}
+
+.touch{
+    height: 320px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hero5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(160, 155, 155);
+    border-radius: 25px;
+    height:90px;
+    width: 680px;
+    padding: 20px;
+    gap: 18px;
+    margin-bottom: 200px;
+}
+
+.contact{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: rgb(63, 62, 62);
+}
+
+.footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+}
+
+.contactlist{
+    font-family: sans-serif;
+    font-weight: 300;
+    width: 500px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.copyright{
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgb(100, 94, 94);
+    position: relative;
+    top: 190px;
+}
